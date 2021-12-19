@@ -3,9 +3,11 @@
 In order to make this work a .env file must be added.
 
 The file contains the Private Key for the my_address variable in the deploy.py script.
+    
     export PRIVATE_KEY=f5640d642a44b02ee57eba4d0a3455e569f1435262349e7a919ac516043870
 
 Once done, you must go into the deploy.py script and update the variable values:
+    
     # testnet rinkeby env
     w3 = Web3(
         Web3.HTTPProvider("https://rinkeby.infura.io/v3/someapikey")
